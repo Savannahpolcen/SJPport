@@ -1,5 +1,5 @@
  body {
-        font-family: American Typewriter, serif; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
  }
 
 header {
@@ -41,9 +41,7 @@ header nav ul li a {
     color: whitesmoke;
 }
 
-
-img {
-    max-width: 50%;
-    height: auto;
+body img {
+    justify-content: right;
 }
 
