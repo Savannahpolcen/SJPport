@@ -1,74 +1,45 @@
- body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
- }
-
 header {
     padding: 5px;
     background-color: #e5e5f7;
     opacity: 0.8;
     background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
     background-blend-mode: multiply;
-    display: flexbox;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-h1 {
     text-align: center;
-    font-size: 100;
-    color: rgb(247, 28, 28);
-    margin-bottom: 20;
-    text-decoration: none;
 
 }
 
-header h2 {
+header nav ul li {
+   font-size: 35px;
+   display: inline;
+   text-decoration: none;
+   font-family:sans-serif;
+}
+
+/*ABOUT SAVANNAH TEXT */
+#about-me {
+font-size: 30;
+}
+
+/*MY PIC*/
+
+#about-me img {
+    padding-left: 100px;
+}
+
+/* ABOUT ME PARAGRAPH */
+p {
+    font-family: fantasy;
+}
+
+/* PREVIOUS PROJECTS*/
+
+#work h2 {
     text-align: center;
-    font-size: 30px;
-    color: white;
-    
 }
 
-header nav ul {
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    color: white;
+/*Comics and cocktails*/
+#work h3 {
+    text-align: end;
 }
-
-header nav ul li a {
-    font-size: 20px;
-    color: whitesmoke;
-}
-
-body p img {
-    border: 5px solid #444cf7;
-    padding: 5px;
-
-}
-
-body p {
-    font-size: 25px;
-    flex-direction:column;
-}
-
-.container {
-    text-align:left;
-    display:column;
-    padding-top: 50px;
-    font-size: 25px;
-    background-color: lightcoral;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-
-.comics-and-cocktails {
-    display:flexbox;
-    font-style: oblique;
-}
-
-
-
-
 
