@@ -41,7 +41,34 @@ header nav ul li a {
     color: whitesmoke;
 }
 
-body img {
-    justify-content: right;
+body p img {
+    border: 5px solid #444cf7;
+    padding: 5px;
+
 }
+
+body p {
+    font-size: 25px;
+    flex-direction:column;
+}
+
+.container {
+    text-align:left;
+    display:column;
+    padding-top: 50px;
+    font-size: 25px;
+    background-color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.comics-and-cocktails {
+    display:flexbox;
+    font-style: oblique;
+}
+
+
+
+
 
