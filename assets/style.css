@@ -4,16 +4,25 @@ header {
     opacity: 0.8;
     background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
     background-blend-mode: multiply;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
+    font-size: 25px;
+    color:aliceblue;
+}
 
+
+
+header nav ul li a {
+   font-size: 20px;
+   text-decoration: none;
+   font-family:'Courier New', Courier, monospace;
+   font-weight: bold;
+   color: whitesmoke;
 }
 
 header nav ul li {
-   font-size: 35px;
-   display: inline;
-   text-decoration: none;
-   font-family:sans-serif;
+    display: inline;
+    font-size: 50px;
 }
 
 /*ABOUT SAVANNAH TEXT */
@@ -40,6 +49,6 @@ p {
 
 /*Comics and cocktails*/
 #work h3 {
-    text-align: end;
+    text-align: center;
 }
 
