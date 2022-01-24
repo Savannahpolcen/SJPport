@@ -11,13 +11,13 @@ header {
 }
 
 body {
-    background-color: rgb(143, 136, 136);
+    background-color: black;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
 
 header nav ul li a {
-   font-size: 20px;
+   font-size: 25px;
    text-decoration: none;
    font-family:'Courier New', Courier, monospace;
    font-weight: bold;
@@ -50,7 +50,7 @@ font-weight: lighter;
 /* ABOUT ME PARAGRAPH */
 P  {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     font-weight: lighter;
     
@@ -60,29 +60,52 @@ P  {
 /* PREVIOUS PROJECTS*/
 
 #work h2 {
-    text-align: right;
-    color: whitesmoke;
+    font-size: 50px;
+    color:white;
+    padding-left: 200px;
+    background-color:#151fe0;
+    width: 205px;
 }
 
-/*Comics and cocktails*/
-#work h3 {
-    text-align: right;
-    color: whitesmoke;
+#Comics-Demo h2 {
+    font-size: 25px;
+    color:white;
+    width: 300px;
+    padding-left: 50px;
+    background-color: #151fe0;
+    margin-left: 20px;
 }
 
 /*CC IMAGE FOR DEMO */
 #Comics-Demo img {
-    padding-left: 100px;
-    box-sizing:content-box;   
+    padding-left: 70px;
+    box-sizing:content-box;
+    padding-top: 5px;   
 }
 
 /* PLACE HOLDER IMAGES NOT TEXT*/
 #placeholders img {
+    padding-left: 400px;
     
 }
 
-.box1 {
-    background-color: turquoise;
+#placeholders h4 {
+    padding-left: 400px;
+    color:white;
 }
 
-adding this line to add comment to git 
+.box1 {
+    background-color: black;
+}
+
+.box2 {
+    background-color: #0022fa;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #ef0615 12%, transparent 12.5%, transparent 87%, #ef0615 87.5%, #ef0615), linear-gradient(150deg, #ef0615 12%, transparent 12.5%, transparent 87%, #ef0615 87.5%, #ef0615), linear-gradient(30deg, #ef0615 12%, transparent 12.5%, transparent 87%, #ef0615 87.5%, #ef0615), linear-gradient(150deg, #ef0615 12%, transparent 12.5%, transparent 87%, #ef0615 87.5%, #ef0615), linear-gradient(60deg, #ef061577 25%, transparent 25.5%, transparent 75%, #ef061577 75%, #ef061577), linear-gradient(60deg, #ef061577 25%, transparent 25.5%, transparent 75%, #ef061577 75%, #ef061577);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    width: 5px;
+    height: 900px;
+    padding-left: 100px;
+    margin-left: 100px;
+}
