@@ -111,7 +111,7 @@ P  {
 }
 
 /*FOOTER CONTACT BOX*/
-.contact1 {
+#contact1 {
     background-color: #1422b4;
     opacity: 0.9;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #1422b4 10px ), repeating-linear-gradient( #eb000055, #eb0000 );
