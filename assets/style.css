@@ -19,8 +19,7 @@ body {
 header nav ul li a {
    font-size: 25px;
    text-decoration: none;
-   font-family:'Courier New', Courier, monospace;
-   font-weight: bold;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    color: whitesmoke;
 }
 
@@ -31,7 +30,7 @@ header nav ul li {
 
 /*ABOUT SAVANNAH TEXT */
 #about-me h2 {
-font-size: 30px;
+font-size: 20px;
 padding-left: 40px;
 padding-bottom: 0px;
 background-color:#151fe0 ;
@@ -85,17 +84,18 @@ P  {
 
 /* PLACE HOLDER IMAGES NOT TEXT*/
 #placeholders img {
-    padding-left: 400px;
+    padding-left: 75px;
     
 }
 
 #placeholders h4 {
-    padding-left: 400px;
+    padding-left: 75px;
     color:white;
-}
-
-.box1 {
-    background-color: black;
+    background-color: #151fe0;
+    width: 125px;
+    font-size: 20px;
+   
+   
 }
 
 .box2 {
@@ -108,4 +108,37 @@ P  {
     height: 900px;
     padding-left: 100px;
     margin-left: 100px;
+}
+
+/*FOOTER CONTACT BOX*/
+.contact1 {
+    background-color: #1422b4;
+    opacity: 0.9;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #1422b4 10px ), repeating-linear-gradient( #eb000055, #eb0000 );
+    height: 200px;
+    
+}
+
+/*PH. AND EMAIL*/
+
+#contactText h3 {
+    color:white;
+    font-size:25px;
+    text-align:center;
+    background-color: #151fe0;
+    width: 400px;
+
+}
+
+#contactText h4 {
+    color:white;
+    background-color: #151fe0;
+    width: 280px;
+    font-size: 30px;
+    text-align: right;
+}
+
+#contactText h2 {
+    color: white;
+    font-size:20px;
 }
